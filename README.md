@@ -36,7 +36,13 @@ If you want to update README.md file, run that script while being in 'hooks' fol
 | attribute\_mapping | The map of attribute mapping of user pool attributes. | map | `<map>` | no |
 | idp\_identifiers | The list of identity providers. | list | `<list>` | no |
 | provider\_details | The map of identity details, such as access token | map | `<map>` | no |
-| provider\_name | The provider name | string | n/a | yes |
-| provider\_type | The provider type | string | n/a | yes |
-| user\_pool\_id | The user pool id | string | n/a | yes |
+| provider\_name | The provider name | string | - | yes |
+| provider\_type | The provider type | string | - | yes |
+| user\_pool\_id | The user pool id | string | - | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| name | Identity Pool Client Name |
 
